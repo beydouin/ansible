@@ -1,0 +1,27 @@
+---
+- name: Killing stuck ansible processes
+  hosts: all
+  #gather_facts: false
+
+  tasks:
+    - name: Getting list of active ansible pids
+      shell: "ps -few | grep ansible | awk '{print $2}"
+      ignore_errors: yes
+      register: ansible_pids
+
+    - name: Killing running ansible processes
+      shell: "kill {{ item }}"
+      ignore_errors: yes
+      with_items: "{{ ansible_pids.stdout_lines }}"
+
+    - wait_for:
+        path: "/proc/{{ item }}/status"
+        status: absent
+        with_items: "{{ ansible_pids.stdout_lines }}"
+        ignore_errors: yes
+        register: ansible_pids_still_running
+
+    - name: Performing brute force kill on the running ansible processes
+        shell: "kill -9 {{ item }}"
+        ignore_errors: yes
+        with_items: "{{ ansible_pids_still_running.results | select ('failed') | map(attribute='item') | list }}"
