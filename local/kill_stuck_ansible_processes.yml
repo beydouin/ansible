@@ -1,7 +1,8 @@
 ---
-- name: Killing stuck ansible processes
-  hosts: all
-  #gather_facts: false
+- hosts: all
+  become: true
+  become_user: root
+  gather_facts: false
 
   tasks:
     - name: Getting list of active ansible pids
