@@ -13,6 +13,9 @@
       register: reboot_required_file
       stat: path=/var/run/reboot-required get_md5=no
 
+    - name: Remove dependencies that are no longer required
+      apt: autoremove=yes
+
     - name: Reboot the box if kernel updated
       reboot:
         msg: "Reboot initiated by Ansible for kernel updates"

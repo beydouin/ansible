@@ -1,0 +1,7 @@
+---
+  - name: Simple Loop
+    hosts: all
+    tasks:
+    - name: copy selected files using loop
+      copy: src=/tmp/{{item}} dest=/tmp
+      loop: [file01,file02,file03]

@@ -1,0 +1,357 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Sep11 ?        00:00:09 /usr/lib/systemd/systemd --switched-root --system --deserialize 18
+root           2       0  0 Sep11 ?        00:00:00 [kthreadd]
+root           3       2  0 Sep11 ?        00:00:00 [rcu_gp]
+root           4       2  0 Sep11 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 Sep11 ?        00:00:00 [kworker/0:0H-kblockd]
+root           8       2  0 Sep11 ?        00:00:00 [mm_percpu_wq]
+root           9       2  0 Sep11 ?        00:00:00 [ksoftirqd/0]
+root          10       2  0 Sep11 ?        00:00:25 [rcu_sched]
+root          11       2  0 Sep11 ?        00:00:00 [migration/0]
+root          12       2  0 Sep11 ?        00:00:00 [watchdog/0]
+root          13       2  0 Sep11 ?        00:00:00 [cpuhp/0]
+root          14       2  0 Sep11 ?        00:00:00 [cpuhp/1]
+root          15       2  0 Sep11 ?        00:00:00 [watchdog/1]
+root          16       2  0 Sep11 ?        00:00:00 [migration/1]
+root          17       2  0 Sep11 ?        00:00:01 [ksoftirqd/1]
+root          19       2  0 Sep11 ?        00:00:00 [kworker/1:0H-xfs-log/dm-0]
+root          21       2  0 Sep11 ?        00:00:00 [kdevtmpfs]
+root          22       2  0 Sep11 ?        00:00:00 [netns]
+root          23       2  0 Sep11 ?        00:00:00 [kauditd]
+root          28       2  0 Sep11 ?        00:00:00 [khungtaskd]
+root          29       2  0 Sep11 ?        00:00:00 [oom_reaper]
+root          30       2  0 Sep11 ?        00:00:00 [writeback]
+root          31       2  0 Sep11 ?        00:00:00 [kcompactd0]
+root          32       2  0 Sep11 ?        00:00:00 [ksmd]
+root          33       2  0 Sep11 ?        00:00:00 [khugepaged]
+root          34       2  0 Sep11 ?        00:00:00 [crypto]
+root          35       2  0 Sep11 ?        00:00:00 [kintegrityd]
+root          36       2  0 Sep11 ?        00:00:00 [kblockd]
+root          37       2  0 Sep11 ?        00:00:00 [tpm_dev_wq]
+root          38       2  0 Sep11 ?        00:00:00 [md]
+root          39       2  0 Sep11 ?        00:00:00 [edac-poller]
+root          40       2  0 Sep11 ?        00:00:00 [watchdogd]
+root          56       2  0 Sep11 ?        00:00:00 [kswapd0]
+root         149       2  0 Sep11 ?        00:00:00 [kthrotld]
+root         150       2  0 Sep11 ?        00:00:00 [irq/24-pciehp]
+root         151       2  0 Sep11 ?        00:00:00 [irq/25-pciehp]
+root         152       2  0 Sep11 ?        00:00:00 [irq/26-pciehp]
+root         153       2  0 Sep11 ?        00:00:00 [irq/27-pciehp]
+root         154       2  0 Sep11 ?        00:00:00 [irq/28-pciehp]
+root         155       2  0 Sep11 ?        00:00:00 [irq/29-pciehp]
+root         156       2  0 Sep11 ?        00:00:00 [irq/30-pciehp]
+root         157       2  0 Sep11 ?        00:00:00 [irq/31-pciehp]
+root         158       2  0 Sep11 ?        00:00:00 [irq/32-pciehp]
+root         159       2  0 Sep11 ?        00:00:00 [irq/33-pciehp]
+root         160       2  0 Sep11 ?        00:00:00 [irq/34-pciehp]
+root         161       2  0 Sep11 ?        00:00:00 [irq/35-pciehp]
+root         162       2  0 Sep11 ?        00:00:00 [irq/36-pciehp]
+root         163       2  0 Sep11 ?        00:00:00 [irq/37-pciehp]
+root         164       2  0 Sep11 ?        00:00:00 [irq/38-pciehp]
+root         165       2  0 Sep11 ?        00:00:00 [irq/39-pciehp]
+root         166       2  0 Sep11 ?        00:00:00 [irq/40-pciehp]
+root         167       2  0 Sep11 ?        00:00:00 [irq/41-pciehp]
+root         168       2  0 Sep11 ?        00:00:00 [irq/42-pciehp]
+root         169       2  0 Sep11 ?        00:00:00 [irq/43-pciehp]
+root         170       2  0 Sep11 ?        00:00:00 [irq/44-pciehp]
+root         171       2  0 Sep11 ?        00:00:00 [irq/45-pciehp]
+root         172       2  0 Sep11 ?        00:00:00 [irq/46-pciehp]
+root         173       2  0 Sep11 ?        00:00:00 [irq/47-pciehp]
+root         174       2  0 Sep11 ?        00:00:00 [irq/48-pciehp]
+root         175       2  0 Sep11 ?        00:00:00 [irq/49-pciehp]
+root         176       2  0 Sep11 ?        00:00:00 [irq/50-pciehp]
+root         177       2  0 Sep11 ?        00:00:00 [irq/51-pciehp]
+root         178       2  0 Sep11 ?        00:00:00 [irq/52-pciehp]
+root         179       2  0 Sep11 ?        00:00:00 [irq/53-pciehp]
+root         180       2  0 Sep11 ?        00:00:00 [irq/54-pciehp]
+root         181       2  0 Sep11 ?        00:00:00 [irq/55-pciehp]
+root         182       2  0 Sep11 ?        00:00:00 [acpi_thermal_pm]
+root         183       2  0 Sep11 ?        00:00:00 [kmpath_rdacd]
+root         184       2  0 Sep11 ?        00:00:00 [kaluad]
+root         185       2  0 Sep11 ?        00:00:00 [ipv6_addrconf]
+root         186       2  0 Sep11 ?        00:00:00 [kstrp]
+root         474       2  0 Sep11 ?        00:00:00 [nvme-wq]
+root         475       2  0 Sep11 ?        00:00:00 [nvme-reset-wq]
+root         476       2  0 Sep11 ?        00:00:00 [nvme-delete-wq]
+root         478       2  0 Sep11 ?        00:00:00 [ata_sff]
+root         482       2  0 Sep11 ?        00:00:00 [scsi_eh_0]
+root         483       2  0 Sep11 ?        00:00:00 [scsi_tmf_0]
+root         484       2  0 Sep11 ?        00:00:00 [scsi_eh_1]
+root         486       2  0 Sep11 ?        00:00:00 [scsi_tmf_1]
+root         489       2  0 Sep11 ?        00:00:00 [scsi_eh_2]
+root         490       2  0 Sep11 ?        00:00:00 [scsi_tmf_2]
+root         492       2  0 Sep11 ?        00:00:00 [scsi_eh_3]
+root         493       2  0 Sep11 ?        00:00:00 [scsi_tmf_3]
+root         494       2  0 Sep11 ?        00:00:00 [scsi_eh_4]
+root         496       2  0 Sep11 ?        00:00:00 [scsi_tmf_4]
+root         497       2  0 Sep11 ?        00:00:00 [scsi_eh_5]
+root         498       2  0 Sep11 ?        00:00:00 [scsi_tmf_5]
+root         499       2  0 Sep11 ?        00:00:00 [scsi_eh_6]
+root         500       2  0 Sep11 ?        00:00:00 [scsi_tmf_6]
+root         502       2  0 Sep11 ?        00:00:00 [scsi_eh_7]
+root         504       2  0 Sep11 ?        00:00:00 [scsi_tmf_7]
+root         505       2  0 Sep11 ?        00:00:00 [scsi_eh_8]
+root         506       2  0 Sep11 ?        00:00:00 [scsi_tmf_8]
+root         507       2  0 Sep11 ?        00:00:00 [scsi_eh_9]
+root         508       2  0 Sep11 ?        00:00:00 [scsi_tmf_9]
+root         509       2  0 Sep11 ?        00:00:00 [scsi_eh_10]
+root         510       2  0 Sep11 ?        00:00:00 [scsi_tmf_10]
+root         511       2  0 Sep11 ?        00:00:00 [scsi_eh_11]
+root         512       2  0 Sep11 ?        00:00:00 [scsi_tmf_11]
+root         513       2  0 Sep11 ?        00:00:00 [irq/16-vmwgfx]
+root         514       2  0 Sep11 ?        00:00:00 [ttm_swap]
+root         515       2  0 Sep11 ?        00:00:00 [scsi_eh_12]
+root         516       2  0 Sep11 ?        00:00:00 [scsi_tmf_12]
+root         517       2  0 Sep11 ?        00:00:00 [scsi_eh_13]
+root         518       2  0 Sep11 ?        00:00:00 [scsi_tmf_13]
+root         519       2  0 Sep11 ?        00:00:00 [scsi_eh_14]
+root         520       2  0 Sep11 ?        00:00:00 [scsi_tmf_14]
+root         521       2  0 Sep11 ?        00:00:00 [scsi_eh_15]
+root         523       2  0 Sep11 ?        00:00:00 [scsi_tmf_15]
+root         524       2  0 Sep11 ?        00:00:00 [scsi_eh_16]
+root         526       2  0 Sep11 ?        00:00:00 [scsi_tmf_16]
+root         527       2  0 Sep11 ?        00:00:00 [scsi_eh_17]
+root         528       2  0 Sep11 ?        00:00:00 [scsi_tmf_17]
+root         529       2  0 Sep11 ?        00:00:00 [scsi_eh_18]
+root         530       2  0 Sep11 ?        00:00:00 [scsi_tmf_18]
+root         531       2  0 Sep11 ?        00:00:00 [scsi_eh_19]
+root         532       2  0 Sep11 ?        00:00:00 [scsi_tmf_19]
+root         533       2  0 Sep11 ?        00:00:00 [scsi_eh_20]
+root         535       2  0 Sep11 ?        00:00:00 [scsi_tmf_20]
+root         537       2  0 Sep11 ?        00:00:00 [scsi_eh_21]
+root         538       2  0 Sep11 ?        00:00:00 [scsi_tmf_21]
+root         539       2  0 Sep11 ?        00:00:00 [scsi_eh_22]
+root         541       2  0 Sep11 ?        00:00:00 [scsi_tmf_22]
+root         542       2  0 Sep11 ?        00:00:00 [scsi_eh_23]
+root         543       2  0 Sep11 ?        00:00:00 [scsi_tmf_23]
+root         544       2  0 Sep11 ?        00:00:00 [scsi_eh_24]
+root         546       2  0 Sep11 ?        00:00:00 [scsi_tmf_24]
+root         547       2  0 Sep11 ?        00:00:00 [scsi_eh_25]
+root         551       2  0 Sep11 ?        00:00:00 [scsi_tmf_25]
+root         553       2  0 Sep11 ?        00:00:00 [scsi_eh_26]
+root         554       2  0 Sep11 ?        00:00:00 [scsi_tmf_26]
+root         555       2  0 Sep11 ?        00:00:00 [scsi_eh_27]
+root         556       2  0 Sep11 ?        00:00:00 [scsi_tmf_27]
+root         557       2  0 Sep11 ?        00:00:00 [scsi_eh_28]
+root         558       2  0 Sep11 ?        00:00:00 [scsi_tmf_28]
+root         559       2  0 Sep11 ?        00:00:00 [scsi_eh_29]
+root         561       2  0 Sep11 ?        00:00:00 [scsi_tmf_29]
+root         562       2  0 Sep11 ?        00:00:00 [scsi_eh_30]
+root         563       2  0 Sep11 ?        00:00:00 [scsi_tmf_30]
+root         564       2  0 Sep11 ?        00:00:00 [scsi_eh_31]
+root         565       2  0 Sep11 ?        00:00:00 [scsi_tmf_31]
+root         608       2  0 Sep11 ?        00:00:00 [kworker/0:1H-kblockd]
+root         646       2  0 Sep11 ?        00:00:00 [kdmflush]
+root         655       2  0 Sep11 ?        00:00:00 [kdmflush]
+root         679       2  0 Sep11 ?        00:00:00 [xfsalloc]
+root         680       2  0 Sep11 ?        00:00:00 [xfs_mru_cache]
+root         686       2  0 Sep11 ?        00:00:00 [xfs-buf/dm-0]
+root         689       2  0 Sep11 ?        00:00:00 [xfs-conv/dm-0]
+root         690       2  0 Sep11 ?        00:00:00 [xfs-cil/dm-0]
+root         691       2  0 Sep11 ?        00:00:00 [xfs-reclaim/dm-]
+root         692       2  0 Sep11 ?        00:00:00 [xfs-log/dm-0]
+root         693       2  0 Sep11 ?        00:00:00 [xfs-eofblocks/d]
+root         694       2  0 Sep11 ?        00:00:12 [xfsaild/dm-0]
+root         695       2  0 Sep11 ?        00:00:00 [kworker/1:1H-xfs-log/dm-0]
+root         796       1  0 Sep11 ?        00:00:03 /usr/lib/systemd/systemd-journald
+root         828       1  0 Sep11 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root         915       2  0 Sep11 ?        00:00:00 [xfs-buf/nvme0n1]
+root         916       2  0 Sep11 ?        00:00:00 [xfs-conv/nvme0n]
+root         917       2  0 Sep11 ?        00:00:00 [xfs-cil/nvme0n1]
+root         918       2  0 Sep11 ?        00:00:00 [xfs-reclaim/nvm]
+root         919       2  0 Sep11 ?        00:00:00 [xfs-log/nvme0n1]
+root         920       2  0 Sep11 ?        00:00:00 [xfs-eofblocks/n]
+root         921       2  0 Sep11 ?        00:00:00 [xfsaild/nvme0n1]
+rpc          943       1  0 Sep11 ?        00:00:00 /usr/bin/rpcbind -w -f
+root         947       1  0 Sep11 ?        00:00:00 /sbin/auditd
+root         949     947  0 Sep11 ?        00:00:00 /usr/sbin/sedispatch
+root         953       2  0 Sep11 ?        00:00:00 [rpciod]
+root         955       2  0 Sep11 ?        00:00:00 [xprtiod]
+root         977       1  0 Sep11 ?        00:00:05 /usr/sbin/irqbalance --foreground
+root         978       1  0 Sep11 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root         982       1  0 Sep11 ?        00:00:00 /usr/libexec/bluetooth/bluetoothd
+root         983       1  0 Sep11 ?        00:00:00 /usr/sbin/mcelog --ignorenodev --daemon --foreground
+root         984       1  0 Sep11 ?        00:00:00 /usr/lib/systemd/systemd-machined
+root         985       1  0 Sep11 ?        00:00:00 /usr/sbin/gssproxy -D
+rtkit        987       1  0 Sep11 ?        00:00:01 /usr/libexec/rtkit-daemon
+root         988       1  0 Sep11 ?        00:00:00 /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+avahi        989       1  0 Sep11 ?        00:00:00 avahi-daemon: running [linux.local]
+root         996       1  0 Sep11 ?        00:00:00 /usr/sbin/ModemManager
+root         998       1  0 Sep11 ?        00:00:00 /usr/sbin/sssd -i --logger=files
+polkitd     1000       1  0 Sep11 ?        00:00:04 /usr/lib/polkit-1/polkitd --no-debug
+libstor+    1002       1  0 Sep11 ?        00:00:00 /usr/bin/lsmd -d
+root        1005       1  0 Sep11 ?        00:00:00 /usr/sbin/smartd -n -q never
+dbus        1008       1  0 Sep11 ?        00:00:04 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+chrony      1010       1  0 Sep11 ?        00:00:01 /usr/sbin/chronyd
+rngd        1016       1  0 Sep11 ?        00:00:12 /sbin/rngd -f --fill-watermark=0
+avahi       1020     989  0 Sep11 ?        00:00:00 avahi-daemon: chroot helper
+root        1028     998  0 Sep11 ?        00:00:00 /usr/libexec/sssd/sssd_be --domain implicit_files --uid 0 --gid 0 --logger=files
+root        1030       1  0 Sep11 ?        00:00:02 /bin/bash /usr/sbin/ksmtuned
+root        1055     998  0 Sep11 ?        00:00:01 /usr/libexec/sssd/sssd_nss --uid 0 --gid 0 --logger=files
+root        1076       1  0 Sep11 ?        00:00:00 /usr/libexec/platform-python -s /usr/sbin/firewalld --nofork --nopid
+root        1101       1  0 Sep11 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root        1105       1  0 Sep11 ?        00:00:00 /usr/libexec/accounts-daemon
+root        1258       1  0 Sep11 ?        00:00:00 /usr/bin/vmhgfs-fuse -o subtype=vmhgfs-fuse,allow_other /mnt/hgfs
+root        1273       1  0 Sep11 ?        00:00:03 /usr/sbin/NetworkManager --no-daemon
+root        1297       1  0 Sep11 ?        00:00:00 /usr/sbin/vmware-vmblock-fuse -o subtype=vmware-vmblock,default_permissions,allow_other /var/run/vmblock-fuse
+root        1305       1  0 Sep11 ?        00:00:00 /usr/sbin/cupsd -l
+root        1310       1  0 Sep11 ?        00:00:00 /usr/sbin/sshd -D -oCiphers=aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes256-ctr,aes256-cbc,aes128-gcm@openssh.com,aes128-ctr,aes128-cbc -oMACs=hmac-sha2-256-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha1,umac-128@openssh.com,hmac-sha2-512 -oGSSAPIKexAlgorithms=gss-gex-sha1-,gss-group14-sha1- -oKexAlgorithms=curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1 -oHostKeyAlgorithms=rsa-sha2-256,rsa-sha2-256-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,rsa-sha2-512,rsa-sha2-512-cert-v01@openssh.com,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com -oPubkeyAcceptedKeyTypes=rsa-sha2-256,rsa-sha2-256-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,rsa-sha2-512,rsa-sha2-512-cert-v01@openssh.com,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com -oCASignatureAlgorithms=rsa-sha2-256,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,rsa-sha2-512,ecdsa-sha2-nistp521,ssh-ed25519,ssh-rsa
+root        1323       1  0 Sep11 ?        00:00:11 /usr/libexec/platform-python -Es /usr/sbin/tuned -l -P
+root        1355       1  0 Sep11 ?        00:01:24 /usr/sbin/vmtoolsd
+root        1387       1  0 Sep11 ?        00:00:00 /usr/lib/vmware-vgauth/VGAuthService -s
+systemd+    1606       1  0 Sep11 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+root        1617       1  0 Sep11 ?        00:00:06 /usr/sbin/rsyslogd -n
+root        1623       1  0 Sep11 ?        00:00:00 /usr/sbin/libvirtd
+root        1660       1  0 Sep11 ?        00:00:00 /usr/sbin/crond -n
+root        1668       1  0 Sep11 ?        00:00:00 /usr/sbin/atd -f
+root        1683       1  0 Sep11 ?        00:00:00 /usr/sbin/gdm
+dnsmasq     1905       1  0 Sep11 ?        00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root        1909    1905  0 Sep11 ?        00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root        2098    1683  0 Sep11 ?        00:00:00 gdm-session-worker [pam/gdm-launch-environment]
+gdm         2103       1  0 Sep11 ?        00:00:00 /usr/lib/systemd/systemd --user
+gdm         2107    2103  0 Sep11 ?        00:00:00 (sd-pam)
+gdm         2116    2103  0 Sep11 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no
+gdm         2117    2098  0 Sep11 tty1     00:00:00 /usr/libexec/gdm-wayland-session gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm         2124    2103  0 Sep11 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gdm         2131    2117  0 Sep11 tty1     00:00:00 /usr/libexec/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm         2146    2131  0 Sep11 tty1     00:00:29 /usr/bin/gnome-shell
+gdm         2183    2146  0 Sep11 tty1     00:00:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+gdm         2189    2103  0 Sep11 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+gdm         2194    2189  0 Sep11 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gdm         2197    2103  0 Sep11 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+gdm         2203    2146  0 Sep11 tty1     00:00:01 ibus-daemon --xim --panel disable
+gdm         2206    2203  0 Sep11 tty1     00:00:00 /usr/libexec/ibus-dconf
+gdm         2210       1  0 Sep11 tty1     00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+gdm         2213    2103  0 Sep11 ?        00:00:00 /usr/libexec/ibus-portal
+gdm         2221    2103  0 Sep11 ?        00:00:00 /usr/libexec/xdg-permission-store
+root        2225       1  0 Sep11 ?        00:00:00 /usr/libexec/upowerd
+geoclue     2230       1  0 Sep11 ?        00:00:00 /usr/libexec/geoclue
+root        2251       1  0 Sep11 ?        00:00:00 /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -s
+gdm         2257    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-xsettings
+gdm         2258    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-a11y-settings
+gdm         2260    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-clipboard
+gdm         2265    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-color
+gdm         2266    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-datetime
+gdm         2267    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-housekeeping
+gdm         2271    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-keyboard
+gdm         2283    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-media-keys
+gdm         2288    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-mouse
+gdm         2291    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-power
+gdm         2295    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-print-notifications
+gdm         2300    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-rfkill
+gdm         2305    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-screensaver-proxy
+gdm         2307    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-sharing
+gdm         2313    2131  0 Sep11 tty1     00:00:04 /usr/libexec/gsd-smartcard
+gdm         2319    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-sound
+gdm         2320    2131  0 Sep11 tty1     00:00:00 /usr/libexec/gsd-wacom
+colord      2338       1  0 Sep11 ?        00:00:00 /usr/libexec/colord
+gdm         2344    2203  0 Sep11 tty1     00:00:00 /usr/libexec/ibus-engine-simple
+root        2412    1683  0 Sep11 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+khurram     2422       1  0 Sep11 ?        00:00:00 /usr/lib/systemd/systemd --user
+khurram     2427    2422  0 Sep11 ?        00:00:00 (sd-pam)
+khurram     2441    2422  0 Sep11 ?        00:00:02 /usr/bin/pulseaudio --daemonize=no
+khurram     2446       1  0 Sep11 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+khurram     2454    2422  0 Sep11 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        2457       2  0 Sep11 ?        00:00:00 [krfcommd]
+khurram     2460    2412  0 Sep11 tty2     00:00:00 /usr/libexec/gdm-wayland-session gnome-session
+khurram     2466    2460  0 Sep11 tty2     00:00:00 /usr/libexec/gnome-session-binary
+khurram     2528    2466  0 Sep11 tty2     00:01:48 /usr/bin/gnome-shell
+khurram     2556    2422  0 Sep11 ?        00:00:00 /usr/libexec/gvfsd
+khurram     2563    2422  0 Sep11 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+khurram     2573    2528  0 Sep11 tty2     00:00:06 /usr/bin/Xwayland :0 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+khurram     2579    2422  0 Sep11 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+khurram     2584    2579  0 Sep11 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+khurram     2589    2422  0 Sep11 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+khurram     2592    2528  0 Sep11 tty2     00:00:11 ibus-daemon --xim --panel disable
+khurram     2596    2592  0 Sep11 tty2     00:00:00 /usr/libexec/ibus-dconf
+khurram     2598    2592  0 Sep11 tty2     00:00:01 /usr/libexec/ibus-extension-gtk3
+khurram     2601    2422  0 Sep11 ?        00:00:00 /usr/libexec/xdg-permission-store
+khurram     2603       1  0 Sep11 tty2     00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+khurram     2606    2422  0 Sep11 ?        00:00:00 /usr/libexec/ibus-portal
+khurram     2617    2422  0 Sep11 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+khurram     2623    2422  0 Sep11 ?        00:00:00 /usr/libexec/evolution-source-registry
+khurram     2630    2422  0 Sep11 ?        00:00:00 /usr/libexec/dconf-service
+khurram     2640    2422  0 Sep11 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+khurram     2647    2422  0 Sep11 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+khurram     2651    2422  0 Sep11 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+khurram     2655    2422  0 Sep11 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+khurram     2659    2422  0 Sep11 ?        00:00:00 /usr/libexec/goa-daemon
+khurram     2666    2422  0 Sep11 ?        00:00:22 /usr/libexec/goa-identity-service
+khurram     2668    2422  0 Sep11 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+khurram     2681    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-power
+khurram     2682    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-print-notifications
+khurram     2684    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-rfkill
+khurram     2690    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-screensaver-proxy
+khurram     2696    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-sharing
+khurram     2697    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-sound
+khurram     2703    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-xsettings
+khurram     2705    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-wacom
+khurram     2706    2466  0 Sep11 tty2     00:00:04 /usr/libexec/gsd-smartcard
+khurram     2717    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-account
+khurram     2723    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-subman
+khurram     2731    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-a11y-settings
+khurram     2735    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-clipboard
+khurram     2737    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-color
+khurram     2742    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-datetime
+khurram     2744    2466  0 Sep11 tty2     00:00:02 /usr/libexec/gsd-housekeeping
+khurram     2746    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-keyboard
+khurram     2749    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-media-keys
+khurram     2751    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-mouse
+root        2775       1  0 Sep11 ?        00:00:23 /usr/libexec/platform-python /usr/libexec/rhsm-service
+khurram     2778    2592  0 Sep11 tty2     00:00:03 /usr/libexec/ibus-engine-simple
+khurram     2801       1  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-printer
+khurram     2829    2422  0 Sep11 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+khurram     2838    2466  0 Sep11 tty2     00:00:06 /usr/bin/gnome-software --gapplication-service
+khurram     2841    2466  0 Sep11 tty2     00:00:00 /usr/libexec/platform-python -Es /usr/bin/seapplet
+khurram     2847    2466  0 Sep11 tty2     00:00:00 /usr/libexec/tracker-miner-apps
+khurram     2853    2466  0 Sep11 tty2     00:00:00 /usr/libexec/tracker-miner-fs
+khurram     2873    2422  0 Sep11 ?        00:00:00 /usr/libexec/tracker-store
+khurram     2875       1  0 Sep11 tty2     00:01:32 /usr/lib/vmware-tools/sbin64/vmtoolsd -n vmusr --blockFd 3 --uinputFd 4
+khurram     2878    2466  0 Sep11 tty2     00:00:00 /usr/libexec/evolution/evolution-alarm-notify
+khurram     2889    2466  0 Sep11 tty2     00:00:00 /usr/libexec/gsd-disk-utility-notify
+khurram     2901    2422  0 Sep11 ?        00:00:00 /usr/libexec/gconfd-2
+khurram     2916    2829  0 Sep11 ?        00:00:00 /usr/libexec/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2829x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2829/2
+khurram     2957    2422  0 Sep11 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+khurram     3010    2957  0 Sep11 ?        00:00:00 /usr/libexec/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx2957x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/2957/2
+root        3134       1  0 Sep11 ?        00:00:02 /usr/libexec/fwupd/fwupd
+root        3140       1  0 Sep11 ?        00:00:00 /usr/libexec/boltd
+khurram     3152    2422  0 Sep11 ?        00:00:00 /usr/libexec/gvfsd-metadata
+khurram     3220    2422  0 Sep11 ?        00:00:14 /usr/libexec/gnome-terminal-server
+khurram     3225    3220  0 Sep11 pts/0    00:00:00 bash
+root        6843       1  0 Sep11 ?        00:00:00 /usr/bin/rhsmcertd
+khurram    11502    3220  0 Sep11 pts/1    00:00:01 bash
+khurram    12954    2446  0 Sep11 ?        00:00:02 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+root       66852    3225  0 Sep11 pts/0    00:00:00 sudo -i
+root       66854   66852  0 Sep11 pts/0    00:00:00 -bash
+root       67463       2  0 Sep11 ?        00:00:00 [kworker/u257:2-hci0]
+root       69240       2  0 Sep11 ?        00:00:00 [kworker/u257:0-hci0]
+root       69307       1  0 Sep11 ?        00:01:45 /usr/libexec/sssd/sssd_kcm --uid 0 --gid 0 --logger=files
+khurram    69311    3220  0 Sep11 pts/2    00:00:00 bash
+khurram    69677    2528  0 Sep11 tty2     00:00:39 /opt/google/chrome/chrome
+khurram    69683   69677  0 Sep11 tty2     00:00:00 cat
+khurram    69684   69677  0 Sep11 tty2     00:00:00 cat
+khurram    69688   69677  0 Sep11 tty2     00:00:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --enable-crash-reporter=951e11cb-13dc-4853-80fe-f89ac893357b,
+khurram    69689   69677  0 Sep11 tty2     00:00:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=951e11cb-13dc-4853-80fe-f89ac893357b,
+khurram    69690   69688  0 Sep11 tty2     00:00:00 /opt/google/chrome/nacl_helper
+khurram    69691   69689  0 Sep11 tty2     00:00:00 /opt/google/chrome/nacl_helper
+khurram    69694   69689  0 Sep11 tty2     00:00:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=951e11cb-13dc-4853-80fe-f89ac893357b,
+khurram    69715   69688  0 Sep11 tty2     00:00:17 /opt/google/chrome/chrome --type=gpu-process --field-trial-handle=14748044161171663814,3265525195750117676,131072 --enable-crash-reporter=951e11cb-13dc-4853-80fe-f89ac893357b, --gpu-preferences=MAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA= --shared-files
+khurram    69717   69677  0 Sep11 tty2     00:00:06 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=14748044161171663814,3265525195750117676,131072 --lang=en-US --service-sandbox-type=network --enable-crash-reporter=951e11cb-13dc-4853-80fe-f89ac893357b, --shared-files
+khurram    69824   69715  0 Sep11 tty2     00:00:00 /opt/google/chrome/chrome --type=broker
+khurram    69930   69694  0 Sep11 tty2     00:00:04 /opt/google/chrome/chrome --type=renderer --field-trial-handle=14748044161171663814,3265525195750117676,131072 --lang=en-US --enable-crash-reporter=951e11cb-13dc-4853-80fe-f89ac893357b, --enable-auto-reload --origin-trial-disabled-features=MeasureMemory --num-raster-threads=1 --renderer-client-id=15 --no-v8-untrusted-code-mitigations --shared-files
+khurram    71456   69694  0 Sep11 tty2     00:00:02 /opt/google/chrome/chrome --type=renderer --field-trial-handle=14748044161171663814,3265525195750117676,131072 --lang=en-US --enable-crash-reporter=951e11cb-13dc-4853-80fe-f89ac893357b, --enable-auto-reload --origin-trial-disabled-features=MeasureMemory --num-raster-threads=1 --renderer-client-id=40 --no-v8-untrusted-code-mitigations --shared-files
+khurram    71467   69694  0 Sep11 tty2     00:00:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=14748044161171663814,3265525195750117676,131072 --lang=en-US --enable-crash-reporter=951e11cb-13dc-4853-80fe-f89ac893357b, --enable-auto-reload --origin-trial-disabled-features=MeasureMemory --num-raster-threads=1 --renderer-client-id=41 --no-v8-untrusted-code-mitigations --shared-files
+root       72390       2  0 Sep11 ?        00:00:01 [kworker/u256:0-events_unbound]
+root       72675       2  0 Sep11 ?        00:00:00 [kworker/u256:2-events_unbound]
+root       85835       1  0 06:01 ?        00:00:00 /usr/libexec/platform-python /usr/libexec/rhsmd
+root       89797       2  0 11:21 ?        00:00:00 [kworker/1:0-events]
+root       89815       2  0 11:23 ?        00:00:00 [kworker/0:0-mm_percpu_wq]
+root       89855       2  0 11:26 ?        00:00:00 [kworker/0:2-events]
+root       89875       2  0 11:28 ?        00:00:00 [kworker/1:3-events]
+root       89939       2  0 11:33 ?        00:00:00 [kworker/1:1-xfs-cil/dm-0]
+root       89962       2  0 11:35 ?        00:00:00 [kworker/u256:1]
+root       90073    1030  0 11:36 ?        00:00:00 sleep 60
+root       90210       2  0 11:36 ?        00:00:00 [kworker/1:2-events]
+root       90379       2  0 11:36 ?        00:00:00 [kworker/0:1-mm_percpu_wq]
+root       90466   11502  0 11:36 pts/1    00:00:00 sudo ps -few
+root       90468   90466  0 11:36 pts/1    00:00:00 ps -few
