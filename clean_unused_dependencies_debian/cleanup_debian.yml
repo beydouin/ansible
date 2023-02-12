@@ -1,0 +1,8 @@
+---
+- name: Clean up unused dependencies
+  hosts: all
+  
+  tasks:
+  - name: Cleaning unused dependencies
+    apt:
+      autoclean: yes
