@@ -1,0 +1,8 @@
+---
+- name: Upgrade debian distro
+  hosts: all
+  
+  tasks:
+  - name: Upgrading Debian distro
+    apt:
+      upgrade: dist
