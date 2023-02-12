@@ -1,0 +1,12 @@
+---
+- name: Grabbing substring characters
+  hosts: all
+
+  tasks:
+  - name: getting hostname
+    shell: 'cat /etc/hostname | cut -c 3-4'
+    register: location
+
+  - name: Display output
+    debug:
+      var: location.stdout
