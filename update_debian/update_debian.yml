@@ -1,0 +1,9 @@
+---
+- name: Update debian hosts
+  hosts: all
+  
+  tasks:
+  - name: Updating debian host now
+    apt:
+      name: "*"
+      state: latest
