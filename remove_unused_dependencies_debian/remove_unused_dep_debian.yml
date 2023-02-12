@@ -1,0 +1,8 @@
+---
+- name: Remove unused dependencies in debian
+  hosts: all
+  
+  tasks:
+  - name: Removing unused dependences
+    apt:
+      autoremove: yes
